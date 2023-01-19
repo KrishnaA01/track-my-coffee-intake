@@ -1,0 +1,37 @@
+.front_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 65px 0;
+}
+
+.card_container {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ .sub_card_container {
+  width: 300px;
+  background-color:#286166;
+  color: white;
+  border-radius: 8px;
+  margin: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+
+input[type="text"], input[type="text"]:focus
+    {
+    font-family: inherit;
+    background: rgba(0, 0, 0, 0);
+    outline-width: 0;
+    color: white;
+    font-size: 25px;
+    }  

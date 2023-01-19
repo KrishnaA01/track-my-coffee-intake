@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { AiOutlinePlusCircle } from 'react-icons/ai';
 import { RxReset } from 'react-icons/rx';
 
@@ -17,10 +16,10 @@ function Card() {
     <section className='card_container'>
        { userInfo.map((item) => {
             return (
-                <div className='sub_card_container'>
+                <div className='sub_card_container' key={item.name}>
                     <h1>{item.name}</h1>
-                    <h2>{item.cups}</h2>
-                    <h4>cups of ☕️ you have drunk</h4>
+                    <h1>{item.cups}</h1>
+                    <p>cups of ☕️ you have drunk</p>
                     <button><AiOutlinePlusCircle /></button>
                     <button><RxReset /></button>
                 </div>

@@ -27,12 +27,18 @@ body {
   padding: 0;
 }
 
-h1, h2 {
-  font-size: 3em;
+h1 {
+  font-size: 2.5em;
   line-height: 0.5;
 }
-h4 {
-  font-size: 1.4em;
+
+h2 {
+  font-size: 2em;
+
+}
+
+p {
+  font-size: 1.1em;
 }
 
 button {
@@ -49,7 +55,7 @@ button {
   transition:border-color linear 0.25s;
 }
 button:hover {
-  border-color: rgba(249, 161, 249, 0.963);
+  border-color: rgba(220, 137, 220, 0.963);
 }
 
 

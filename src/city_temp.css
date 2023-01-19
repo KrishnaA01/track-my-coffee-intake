@@ -1,0 +1,24 @@
+.temp_wrapper {
+    background-color: #286166;
+    padding: 20px 70px;
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.temp_wrapper p {
+    font-size: 20px;
+    line-height: .5em;
+}
+
+.temp_icon {
+  cursor: pointer;
+  transition:color linear 0.25s;
+}
+
+.temp_icon:hover {
+    color: rgba(220, 137, 220, 0.963);
+}

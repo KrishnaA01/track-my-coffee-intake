@@ -1,5 +1,5 @@
 const quotes = [
-    "You're vrew-tiful",
+    "You're Brew-tiful",
     "Humanity runs on ☕️",
     "Life is too short to drink bad ☕️",
     "Just ☕️ Black-like my Soul",

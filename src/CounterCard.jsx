@@ -6,7 +6,6 @@ import { RxReset } from 'react-icons/rx';
 
 function Card() {
 
-    // grab whatever values are stored in the local storage, if not assign an empty array value to data
     const [ data, setData ] = useState(
             () => JSON.parse(localStorage.getItem('data'))|| []);
      
@@ -15,19 +14,18 @@ function Card() {
         if (Object.keys(data).length === 0) {
             localStorage.setItem('data', JSON.stringify(
                 [
-                  {id:1, name: "Krishna", cups: 4, isHundred: false},
-                   {id:2, name: "Lucas", cups: 8, isHundred: false},
-                   {id:3, name: "Lucas", cups: 8, isHundred: false},
-                   {id:4, name: "Sanjeet", cups: 9, isHundred: false},
-                   {id:5, name: "Onia", cups: 14, isHundred: false},
-                   {id:6, name: "Joh", cups: 6, isHundred: false},
-                   {id:7, name: "Laurenz", cups: 15, isHundred: false}
+                   {id:1, name: "Laurenz", cups: 4, isHundred: false},
+                   {id:2, name: "Onia", cups: 8, isHundred: false},
+                   {id:3, name: "Sanjeet", cups: 8, isHundred: false},
+                   {id:4, name: "Joh", cups: 9, isHundred: false},
+                   {id:5, name: "Krishna", cups: 14, isHundred: false},
+                   {id:6, name: "Lukas", cups: 6, isHundred: false},
+                   {id:7, name: "Firas", cups: 15, isHundred: false}
                 ] 
                  ));
         } else
             localStorage.setItem('data', JSON.stringify(data));
         }, [data]);
-   
 
 
     const handleClick = (id) => {
@@ -49,10 +47,8 @@ function Card() {
         }));
     };
 
-
   return (
     <section className='card_container'>
-    
        {data.map((item) => {
             return (
                 <div className='sub_card_container' key={item.id}>

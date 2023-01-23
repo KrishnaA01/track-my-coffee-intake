@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Card from './Card';
+import CounterCard from './CounterCard';
 import Weather from './Weather';
 import { TiWeatherPartlySunny } from 'react-icons/ti';
 
@@ -17,7 +17,7 @@ function App() {
         onClick={()=> setShowWeather(!showWeather)}><TiWeatherPartlySunny /></span>
         { showWeather ? <Weather /> : null }
       </h2>
-      <Card />
+      <CounterCard />
     </div>
   )
 }

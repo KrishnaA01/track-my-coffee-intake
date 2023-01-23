@@ -20,7 +20,6 @@ const Weather = () => {
         .then(res => res.json())
         .then(result => {
           setData(result)
-          console.log(result);
         });
       }
       fetchData();

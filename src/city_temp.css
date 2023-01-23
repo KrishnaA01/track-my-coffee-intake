@@ -17,6 +17,7 @@
 .temp_icon {
   cursor: pointer;
   transition:color linear 0.25s;
+  color: rgba(255, 238, 4, 0.77);
 }
 
 .temp_icon:hover {

@@ -1,25 +1,24 @@
 .temp_wrapper {
-    background-color: #286166;
-    padding: 20px 70px;
-    display: flex;
-    margin-top: 35px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    flex-direction: column;
+  background-color: #286166;
+  padding: 20px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  flex-direction: column;
 }
 
 .temp_wrapper p {
-    font-size: 22px;
-    line-height: .5em;
+  font-size: 22px;
+  line-height: 0.5em;
 }
 
 .temp_icon {
   cursor: pointer;
-  transition:color linear 0.25s;
+  transition: color linear 0.25s;
   color: rgba(225, 211, 11, 0.77);
 }
 
 .temp_icon:hover {
-    color: rgba(220, 137, 220, 0.963);
+  color: rgba(220, 137, 220, 0.963);
 }
